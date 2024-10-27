@@ -12,12 +12,12 @@ async function loadContent() {
     document.getElementById("dynamic-title").textContent = 
       currentLang === "ca" ? "Paisatges Increïbles - Blog Multi Idioma" : 
       currentLang === "es" ? "Paisajes Increíbles - Blog Multi Idioma" : 
-      "Amazing Landscapes - Blog Multi Language";
+      currentLang === "en" ? "Amazing Landscapes - Blog Multi Language";
 
     document.getElementById("dynamic-description").content = 
       currentLang === "ca" ? "Explora increïbles paisatges del món en català, castellà i anglès." : 
       currentLang === "es" ? "Explora increíbles paisajes del mundo en catalán, español e inglés." : 
-      "Explore amazing landscapes from around the world in Catalan, Spanish, and English.";
+      currentLang === "en" ? "Explore amazing landscapes from around the world in Catalan, Spanish, and English.";
 
   } catch (error) {
     console.error("Error carregant el contingut:", error);
