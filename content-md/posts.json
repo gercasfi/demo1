@@ -1,0 +1,30 @@
+[
+  {
+    "id": "post1",
+    "title": {
+      "ca": "Paisatges Increïbles",
+      "es": "Paisajes Increíbles",
+      "en": "Amazing Landscapes"
+    },
+    "tags": ["paisatges", "viatges", "natura"],
+    "description": {
+      "ca": "Explora increïbles paisatges del món.",
+      "es": "Explora increíbles paisajes del mundo.",
+      "en": "Explore amazing landscapes around the world."
+    }
+  },
+  {
+    "id": "post2",
+    "title": {
+      "ca": "Art Urbà",
+      "es": "Arte Urbano",
+      "en": "Urban Art"
+    },
+    "tags": ["art", "ciutat", "cultura"],
+    "description": {
+      "ca": "Descobreix l'art urbà de les principals ciutats.",
+      "es": "Descubre el arte urbano en las principales ciudades.",
+      "en": "Discover urban art in major cities."
+    }
+  }
+]
