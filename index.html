@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="dynamic-title">Paisatges Increïbles - Blog Multi Idioma</title>
+  <meta id="dynamic-description" name="description" content="Explora increïbles paisatges del món en català, castellà i anglès.">
+  <link rel="stylesheet" href="styles/style.css">
+  
+  <!-- Etiquetes hreflang per a SEO multi idioma -->
+  <link rel="alternate" href="https://tu-usuari.github.io/post1" hreflang="ca" />
+  <link rel="alternate" href="https://tu-usuari.github.io/post1" hreflang="es" />
+  <link rel="alternate" href="https://tu-usuari.github.io/post1" hreflang="en" />
+  <link rel="alternate" href="https://tu-usuari.github.io/post1" hreflang="x-default" />
+</head>
+<body>
+
+  <header>
+    <h1>Blog Multi Idioma</h1>
+    <nav>
+      <button onclick="setLanguage('ca')">Català</button>
+      <button onclick="setLanguage('es')">Español</button>
+      <button onclick="setLanguage('en')">English</button>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <div id="post-content"></div>
+    </article>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
